@@ -21,3 +21,10 @@ html {
   .wrapper {
       position: fixed;
   }
+
+  .btn-ticket {
+    padding-top: 15px;
+    border: solid #d84d40;
+    border-width: 5px;
+    border-radius: 5px;
+}

@@ -1,9 +1,14 @@
 /* NAV BAR START */
+.top-header {
+    display: none;
+}
+
 .menu-bars {
     display: block;
     font-size: 2rem;
     cursor: pointer;
     padding: 20px;
+    position:fixed;
 }
 
 .wrapper {
@@ -67,12 +72,7 @@
     text-decoration: none;
   }
 
-  .btn-ticket {
-      padding-top: 15px;
-      border: solid #d84d40;
-      border-width: 5px;
-      border-radius: 5px;
-  }
+
   
   /** MENU OVERLAY END ***/
 
