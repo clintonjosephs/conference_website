@@ -319,3 +319,67 @@
     font-weight: 600;
 }
 /***Footer End**/
+
+/*** Past Events Page **/
+.info {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+}
+
+.mabout {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.past-wrapper {
+    background: #fff;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.past-wrapper > .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.past-wrapper > .header > h1 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.event1 {
+    background-image: url(../images/2019.png);
+    height: 200px;
+    opacity: 0.5;
+  }
+  
+  .event2 {
+    background-image: url(../images/2020.png);
+    height: 200px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+  }
+  
+.past-event {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px;
+    height: 200px;
+  } 
+
+  .event-text {
+      margin: 0 auto;
+      padding-top: 35px;
+      text-align: center;
+  }
+/***Past Events page end**/
