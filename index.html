@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Hackerton Naija 2021</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="assets/css/desktop.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="bar-section">
+        <div class="wrapper">
+            <nav class="nav-bar">
+                <div class="logo"><a href="#welcome" tabindex="1">My Logo</a></div>
+                <div class="menu-bars" id="mobileMenuButton">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="myMenu">
+                    <ul class="nav-list">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#program">Program</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#partners" >Partners</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a class="btn btn-ticket" href="#!">Buy Tickets now</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="welcome">
+        <div class="welcome-container">
+            <h3>National Software Developers Hackerton</h3>
+            <h1>Creativity and security in Automation of Business Processes</h1>
+            <div class="conference-description">
+                A Two day event to learn more about what creativity entails and the importance of implement appropriate security during automation of business processes.
+                This technology week will bring together successful entrepreneurs, venture capitalists, angel investors and advisors to teach you the tricks of trade, offer advice,
+                tips and tools for aspiring entrepreneurs and software developers. 
+            </div>
+            <p class="conference-date">
+                23rd - 24th December, 2021
+            </p>
+            <p class="conference-venue">
+                Eko Convention Center - Lagos, Nigeria
+            </p>
+        </div>
+    </section>
+    <section class="program" id="program">
+        <div class="program-wrapper">
+            <div class="main-title">
+                <h1>Main Program</h1>
+                <div class="program-line"></div>
+            </div>
+            
+            <div class="program-main">
+               <!-- program content loaded dynamically -->
+            </div>
+            <div class="see-more-programs">
+                SEE WHOLE PROGRAM
+            </div>
+        </div>
+    </section>
+    <section class="speakers" id="speakers">
+        <div class="speakers-wrapper">
+            <div class="speakers-title">
+                <h1>Featured Speakers</h1>
+                <div class="program-line"></div>
+            </div>
+            
+            <div class="speakers-main">
+               <!-- speakers content loaded dynamically -->
+            </div>
+        </div>
+    </section>
+    <section class="partners" id="partners">
+        <div class="partners-wrapper">
+            <div class="main-title">
+                <h1>Our Partners</h1>
+                <div class="program-line"></div>
+            </div>
+            
+            <div class="partners-main">
+                <div class="partners-item">
+                    <img src="./assets/images/partner/mozilla.png" width="250" height="70" alt="Mozilla">
+                </div>
+                <div class="partners-item">
+                    <img src="./assets/images/partner/facebook.png" width="280" height="100" alt="Facebook">
+                </div>
+                <div class="partners-item">
+                    <img src="./assets/images/partner/amazone.png" width="210" height="70" alt="Amazon">
+                </div>
+                <div class="partners-item">
+                    <img src="./assets/images/partner/google-logo.png" width="210" height="70" alt="Google">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="menu-overlay" id="menu-overlay">
+        <a href="#" class="closeMenu" onclick="closeMobileMenu()"> 
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </a>
+        <ul class="menu-mobile">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#partners" >Partners</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="btn-ticket"><a href="#!">Buy Tickets now</a></li>
+        </ul>
+    </div>
+    <footer>
+        <div class="fcontainer">
+            <div class="flogo">
+                <a href="index.html"><i class="fa fa-terminal" aria-hidden="true"></i> <span>NSDHackerton</span></a>
+            </div>
+            <div class="writeup">
+                Copyright © 2021 All rights reserved | Directorate of Software, Nigeria
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/program.js"></script>
+    <script src="./assets/js/speakers.js"></script>
+</body>
+</html>

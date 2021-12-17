@@ -1,0 +1,321 @@
+/* NAV BAR START */
+.menu-bars {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.wrapper {
+  background-color: #f7f7f9;
+}
+
+.myMenu {
+   height: 0;
+   display: none;
+}
+
+.logo {
+    display: none;
+}
+
+
+/*** MENU OVERLAY ***/
+
+.menu-overlay {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #272a31;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .closeMenu {
+    font-size: 30px;
+    border-radius: 0;
+    float: right;
+    margin-right: 25px;
+    margin-top: 62px;
+    color: white;
+  }
+  
+  .menu-mobile {
+    list-style: none;
+    padding: 106px 96px 0 0px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    color: white;
+    text-transform: capitalize;
+  }
+  
+  .menu-mobile > li {
+    padding-bottom: 30px;
+    padding-left: 15px;
+  }
+  
+  .menu-mobile > li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .btn-ticket {
+      padding-top: 15px;
+      border: solid #d84d40;
+      border-width: 5px;
+      border-radius: 5px;
+  }
+  
+  /** MENU OVERLAY END ***/
+
+/* NAV BAR END */
+
+
+/*** WELCOME CONTAINER  ***/
+
+.welcome-container {
+  background-image: url("../images/bg/header2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  height: auto;
+  padding-bottom: 200px;
+}
+
+.welcome-container > h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    color: #d84d40;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome-container > h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    padding: 0px 20px 0 20px;
+    color: #ec5242;
+    font-size: 1.8rem;
+    text-transform:uppercase;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.about-conference-description {
+    font-family: 'Lato', sans-serif;
+    border: 3px solid white;
+    padding: 10px 10px;
+    margin: 0px 30px 0px 30px;
+    font-weight: normal;
+    font-size: 18px;
+    background: #fff;
+}
+
+.conference-description {
+    font-family: 'Lato', sans-serif;
+    border: 3px solid white;
+    padding: 10px 10px;
+    margin: 0px 30px 0px 30px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.conference-date {
+    font-family: 'COCOGOOSE', sans-serif;
+    line-height: 38px;
+    font-size: 1.8rem;
+    margin: 0px 30px 0px 30px;
+    font-weight: 600;
+    color: #504f4f;
+}
+
+.conference-venue {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    margin: 15px 30px 0px 30px;
+    color: #504f4f;
+    font-size: 20px;
+}
+
+/*** WELCOME CONTAINER CLOSE **/
+
+
+/*** Main Porgram **/
+.program-wrapper {
+    background-image: url("../images/bg/program-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    height: 800px;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.main-title h1 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 20px;
+    font-weight: normal;
+}
+
+.program-line {
+    width: 25px;
+    height: 3px;
+    background-color: #ec5242;
+ }
+
+ .program-main {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .program-item {
+    background-image: url("../images/bg/program-sgle.jpg");
+    background-repeat: repeat-x;
+    margin: 15px 15px 0px 15px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 15% 30% 55%;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 17px;
+ }
+
+ .program-column > div {
+     color: #ec5242;
+     font-size: 20px;
+     font-weight: bold;
+     word-wrap:break-word;
+     width: 90px;
+ }
+
+ .program-column {
+    margin: auto;
+ }
+
+ .see-more-programs {
+     margin: 30px 15px 0px 15px;
+     height: 70px;
+     background: #ec5242;
+     text-align: center;
+     font-family: 'Lato', sans-serif;
+     color: white;
+     font-size: 24px;
+     padding-top: 20px;
+ }
+
+
+/****Main Program Close***/
+
+
+/*** Featured speakers **/
+.speakers-title h1 {
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+    font-weight: normal;
+}
+
+.speakers-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.speaker-content:last-child {
+    border-bottom: none;
+}
+
+.speaker-content {
+    height: auto;
+    background: white;
+    margin: 15px 15px 10px 15px;
+    border-bottom: solid;
+    border-color: rgb(219, 214, 214);
+    border-width: 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 5px;
+  }
+
+.speaker-image {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.speaker-details {
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.speaker-title {
+  color: #ec5242;
+}
+
+.speaker-website {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+/***Featured speakers closed **/
+
+/**** Partners Start **/
+
+.partners-wrapper {
+    background: #535256;
+    height: auto;
+}
+
+.partners-main img {
+    filter: invert(1%) sepia(0%) saturate(0%) hue-rotate(311deg) brightness(102%) contrast(105%);
+  }
+
+.partners-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.partners-item {
+   padding:30px;
+}
+
+/***Partners End ***/
+
+/***Footer Start ***/
+.fcontainer {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 15px;
+}
+
+.fcontainer > .flogo > a {
+    text-decoration: none;
+}
+
+.writeup {
+    padding-left: 5px;
+    font-size: 18px;
+}
+.flogo {
+    align-self: center;
+    justify-self: center;
+    font-weight: 600;
+}
+/***Footer End**/

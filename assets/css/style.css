@@ -1,0 +1,23 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+html {
+    background-color: #fff;
+    font-family: 'Cocogoose', 'Lato';
+    box-sizing: border-box;
+  }
+  
+  body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  .wrapper {
+      position: fixed;
+  }
