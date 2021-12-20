@@ -96,7 +96,7 @@
     color: #d84d40;
     font-weight: 500;
     font-size: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .welcome-container > h1 {
@@ -106,7 +106,7 @@
     font-size: 1.8rem;
     text-transform:uppercase;
     font-weight: 500px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .about-conference-description {

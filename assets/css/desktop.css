@@ -92,9 +92,17 @@
     color: #d84d40;
 }
 
+.nav-list > li > a:active {
+    color: #d84d40;
+}
+
 /* NAV BAR END */
 
 /*** WELCOME CONTAINER  ***/
+.logo-effect:hover {
+    transition-duration: 1s;
+    transform: rotate(360deg);
+}
 
 .welcome-container {
     background-image: url("../images/bg/header.png");
@@ -109,20 +117,21 @@
   
   .welcome-container > h3 {
       font-family: 'Lato', sans-serif;
-      padding: 20px;
+      padding: 0 0 0 20px;
       color: #d84d40;
       font-weight: 500;
-      font-size: 30px;
+      font-size: 40px;
       margin-top: 0px;
   }
   
   .welcome-container > h1 {
       font-family: 'COCOGOOSE', sans-serif;
-      padding: 0px 20px 0 20px;
+      padding: 0px 0 0 20px;
       color: #ec5242;
-      font-size: 1.8rem;
+      font-size: 2.5rem;
       text-transform:uppercase;
       font-weight: 500px;
+      margin-top: 0px;
   }
   
   /* .about-conference-description {
@@ -171,7 +180,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
-    height: 600px;
+    height: 700px;
 }
 
 .main-title {
@@ -200,6 +209,8 @@
      padding-right: 150px;
      padding-left: 150px;
      margin-bottom: 40px;
+     margin-top: 40px;
+     justify-content: center;
  }
 
  .program-item:hover {
@@ -210,14 +221,14 @@
  .program-item {
     background-image: url("../images/bg/program-sgle.jpg");
     background-repeat: repeat;
-    margin: 15px 15px 0px 15px;
+    margin: 0 0 0px 15px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     color: #fff;
     height: 300px;
-    width: 300px;
+    width: 500px;
     font-size: 17px;
     align-items: center;
     text-align: center;
@@ -332,6 +343,7 @@
     flex-direction: row;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .partners-item {
@@ -356,7 +368,7 @@
 
 .writeup {
     padding-left: 5px;
-    font-size: 18px;
+    font-size: 24px;
     align-self: center;
     justify-self: center;
 }
@@ -364,5 +376,6 @@
     align-self: center;
     justify-self: center;
     font-weight: 600;
+    font-size: 24px;
 }
 /***Footer End**/

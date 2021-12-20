@@ -19,10 +19,14 @@ const programs = [{
   {
     icon: '<i class="fa fa-microphone fa-2x"></i>',
     title: 'Talks',
-    details: 'Lets talk about security, software development models, object oriented programming, machine learning, data science and so much more',
+    details: 'Lets talk about security, software development models,  and so much more',
   },
-  
-  ];
+  {
+      icon: '<i class="fa fa-graduation-cap fa-2x"></i>',
+      title: 'Certifications',
+      details: 'Certificate of participation will be given out to all those in attendance'
+  }
+];
 
 
 function getPrograms(program) {

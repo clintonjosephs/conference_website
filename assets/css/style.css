@@ -28,3 +28,8 @@ html {
     border-width: 5px;
     border-radius: 5px;
 }
+
+.conference-logo {
+  width: 120px;
+  height: 60px;
+}
