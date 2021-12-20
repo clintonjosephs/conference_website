@@ -24,7 +24,6 @@
   display: none;
 }
 
-
 /*** MENU OVERLAY ***/
 
 .menu-overlay {
@@ -72,12 +71,9 @@
   text-decoration: none;
 }
 
-
-
 /** MENU OVERLAY END ***/
 
 /* NAV BAR END */
-
 
 /*** WELCOME CONTAINER  ***/
 
@@ -146,8 +142,8 @@
 
 /*** WELCOME CONTAINER CLOSE **/
 
-
 /*** Main Porgram **/
+
 .program-wrapper {
   background-image: url("../images/bg/program-bg.jpg");
   background-size: cover;
@@ -216,11 +212,10 @@
   padding-top: 20px;
 }
 
-
 /****  Main Program Close  ***/
 
-
 /*** Featured speakers **/
+
 .speakers-title h1 {
   font-family: 'Lato', sans-serif;
   margin: 20px;

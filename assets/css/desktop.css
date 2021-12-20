@@ -249,10 +249,10 @@
   width: 400px;
 }
 
-
 /****  Main Program Close  ***/
 
 /*** Featured speakers **/
+
 .speakers-main {
   display: grid;
   grid-template-columns: auto auto;
@@ -383,11 +383,10 @@
   background: #fff;
 }
 
-
 /*** About Conference End **/
 
-
 /*** Past Events Page **/
+
 .info {
   font-family: 'Lato', sans-serif;
   text-align: center;
