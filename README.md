@@ -13,7 +13,7 @@ This is a demo conference website project that serves the purpose of informing u
 
 [Live Demo Link](https://clintonjosephs.github.io/conference_website/)
 
-[Demo video link](https://www.loom.com/share/9924ddc53a0a4ccbb3dde01c15d0577b)
+[Demo video link](https://www.loom.com/share/8f39d53f7bdf4290bae8277a771c0868)
  
 ## Built With
 
