@@ -38,7 +38,7 @@ Run the command below from the Terminal:
 
 
 
-## Authors
+## Author
 
 👤 **Clinton Mbonu**
 
