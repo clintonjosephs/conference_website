@@ -29,6 +29,7 @@
     flex-direction: row;
     list-style: none;
     align-content: space-between;
+    cursor: pointer;
 }
 
 .link-rx > li {

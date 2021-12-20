@@ -1,43 +1,48 @@
-# My Portfolio
+# Conference Website Capstone
 
-![screenshot](assets/images/portfolio_snapshoot/modal_desktop.png)
+This is a demo conference website project that serves the purpose of informing users about an upcoming IT conference, with an about page to give more information about the conference.
 
-![screenshot](assets/images/portfolio_snapshoot/modal_mobile.png)
 
-[LIVE DEMO LINK](https://clintonjosephs.github.io/portfolio_website/)
+![screenshot](assets/images/conf_desktop.png)
 
-Portfolio website to show better a sneak peak on the things I can do to your project. Live demo link has been added using github pages to give you a tour of the project! 
-Enjoy the swiftness of the mobile menu as you click on the navigation button while on mobile screen, 
-we have also added dynamic data using javascript objects to (modal window and dynamic presentation of the works section)
-Happy surfing!
+![screenshot](assets/images/conf_mobile.png)
 
+ 
+
+## Live Demo
+
+[Live Demo Link](https://clintonjosephs.github.io/conference_website/)
+
+[Demo video link](https://www.loom.com/share/5beca23690864e118d2b4ab2bb3baf96)
+ 
 ## Built With
 
 - HTML
 - CSS
 - Javascript
-- HTML & CSS & Javascript Linter
+- HTML&CSS Linter
+- Git
 
+## Get Started
 
-## Getting Started
-
-**Please get your browser update. To get a local copy up and running follow these simple steps.**
+Please get your browser update.
+To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-### navigate to your projects folder
+      git clone <URL> in your terminal
 
-### run git clone https://github.com/clintonjosephs/microverse_portfolio.git in your terminal
+	  cd conference-website
 
-### run cd microverse_portfolio
+	  start index.html
 
-### start index.html
 
 
 ## Authors
 
-👤 **Author**
+👤 **Clinton Mbonu**
 
+- Location: Nigeria
 - GitHub: [@clintonjosephs](https://github.com/clintonjosephs)
 - Twitter: [@clintonmbonu_](https://twitter.com/clintonmbonu_)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/clinton-mbonu)
@@ -47,7 +52,7 @@ Run the command below from the Terminal:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/codecaiine/conference-website/issues).
 
 ## Show your support
 
@@ -55,8 +60,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Entire Microverse team
-- My learning and coding partners
+This design is similar to the one created by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) .
 
 ## 📝 License
+
 This project is [MIT](LICENSE) licensed.
