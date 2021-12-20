@@ -1,0 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+html {
+  background-color: #fff;
+  font-family: 'Cocogoose', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  position: fixed;
+}
+
+.btn-ticket {
+  padding-top: 15px;
+  border: solid #d84d40;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+.conference-logo {
+  width: 120px;
+  height: 60px;
+}
