@@ -301,7 +301,7 @@
 .fcontainer {
     font-family: 'Lato', sans-serif;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     padding: 15px;
 }
 
@@ -317,6 +317,7 @@
     align-self: center;
     justify-self: center;
     font-weight: 600;
+    margin-right: 10px;
 }
 /***Footer End**/
 
