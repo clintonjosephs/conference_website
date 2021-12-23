@@ -52,8 +52,6 @@ Run the command below from the Terminal:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/codecaiine/conference-website/issues).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
