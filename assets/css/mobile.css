@@ -15,10 +15,10 @@
   background-color: #f7f7f9;
 }
 
-.myMenu {
+/* .myMenu {
   height: 0;
   display: none;
-}
+} */
 
 .logo {
   display: none;
@@ -71,6 +71,9 @@
   text-decoration: none;
 }
 
+.btn-ticket {
+  padding: 5px;
+}
 /** MENU OVERLAY END ***/
 
 /* NAV BAR END */
@@ -159,7 +162,7 @@
   align-items: center;
 }
 
-.main-title h1 {
+.main-title h2 {
   font-family: 'Lato', sans-serif;
   color: #fff;
   margin: 20px;
@@ -216,7 +219,7 @@
 
 /*** Featured speakers **/
 
-.speakers-title h1 {
+.speakers-title h2 {
   font-family: 'Lato', sans-serif;
   margin: 20px;
   font-weight: normal;

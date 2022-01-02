@@ -33,3 +33,16 @@ body {
   width: 120px;
   height: 60px;
 }
+
+.partners-main {
+  list-style: none;
+}
+
+.partners-item img {
+  width: 250px; 
+  height: 80px;
+}
+
+.amazone {
+  width: 250px !important;
+}

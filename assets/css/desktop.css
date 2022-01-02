@@ -1,5 +1,5 @@
 /* NAV BAR START */
-.menu-overlay {
+.closeMenu {
   display: none;
 }
 
@@ -63,9 +63,10 @@
   align-self: center;
 }
 
-.myMenu {
+.menu-overlay {
   justify-content: flex-end;
   align-self: center;
+  display: block;
 }
 
 .nav-list > li {
@@ -181,7 +182,7 @@
   align-items: center;
 }
 
-.main-title h1 {
+.main-title h2 {
   font-family: 'Lato', sans-serif;
   color: #fff;
   margin: 20px;
@@ -263,7 +264,7 @@
   padding-right: 150px;
 }
 
-.speakers-title h1 {
+.speakers-title h2 {
   font-family: 'Lato', sans-serif;
   margin: 20px;
   font-weight: normal;
