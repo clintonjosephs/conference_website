@@ -4,7 +4,6 @@ const menuOverlay = document.querySelector('.menu-overlay');
 const mobileMenuButton = document.querySelector('#mobileMenuButton');
 const closeMenu = document.querySelector('.closeMenu');
 
-
 function mobileMenuToogle() {
   menuOverlay.style.width = '100%';
 }
@@ -27,7 +26,6 @@ for (let i = 0; i < mobileMenuLinks.length; i += 1) {
     closeMobileMenu();
   });
 }
-
 
 window.addEventListener('resize', () => {
   const newWidth = window.innerWidth;
