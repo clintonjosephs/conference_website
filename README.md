@@ -1,15 +1,12 @@
 # Conference Website Capstone
 
-This is a demo conference website project that serves the purpose of informing users about an upcoming IT conference, with an about page to give more information about the conference.
+Looking for a software conference to attend? you are in the right place. This website project serves the purpose of informing users about an upcoming IT conference, with an about page to give more information about the conference. Built with HTML, CSS and JavaScript.
 
 
 ![screenshot](assets/images/conf_desktop.png)
-
-![screenshot](assets/images/conf_mobile.png)
-
  
 
-## Live Demo
+## Presentation
 
 [Live Demo Link](https://clintonjosephs.github.io/conference_website/)
 
@@ -29,13 +26,11 @@ Please get your browser update.
 To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
-
-      git clone <URL> in your terminal
-
-	  cd conference-website
-
-	  start index.html
-
+```bash
+$ git@github.com:clintonjosephs/conference_website.git
+$ cd conference_website
+$ start index.html
+```
 
 
 ## Author
